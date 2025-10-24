@@ -3,14 +3,11 @@
   "category": "building",
   "group": "glow_block",
   "ingredients": [
-    {
-      "item": "minecraft:glowstone"
-    },
-    {
-      "item": "minecraft:purple_dye"
-    }
+    "minecraft:glowstone",
+    "minecraft:purple_dye"
   ],
   "result": {
-    "item": "suprememc:purple_glow_block"
+    "count": 1,
+    "id": "suprememc:purple_glow_block"
   }
 }

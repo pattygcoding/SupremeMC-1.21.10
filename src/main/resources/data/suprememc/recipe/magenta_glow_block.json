@@ -3,14 +3,11 @@
   "category": "building",
   "group": "glow_block",
   "ingredients": [
-    {
-      "item": "minecraft:glowstone"
-    },
-    {
-      "item": "minecraft:magenta_dye"
-    }
+    "minecraft:glowstone",
+    "minecraft:magenta_dye"
   ],
   "result": {
-    "item": "suprememc:magenta_glow_block"
+    "count": 1,
+    "id": "suprememc:magenta_glow_block"
   }
 }

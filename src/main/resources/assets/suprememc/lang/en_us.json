@@ -2,22 +2,21 @@
     "creativetab.suprememc.suprememc_tab": "SupremeMC",
     "item.suprememc.ruby": "Ruby",
     "item.suprememc.ruby_block": "Block of Ruby",
+
     
-    "block.suprememc.ruby_block": "Block of Ruby",
-    
-    "block.suprememc.red_glow_block": "Red Glow Block",
-    "block.suprememc.orange_glow_block": "Orange Glow Block",
-    "block.suprememc.yellow_glow_block": "Yellow Glow Block",
-    "block.suprememc.lime_glow_block": "Lime Glow Block",
-    "block.suprememc.green_glow_block": "Green Glow Block",
-    "block.suprememc.cyan_glow_block": "Cyan Glow Block",
-    "block.suprememc.light_blue_glow_block": "Light Blue Glow Block",
-    "block.suprememc.blue_glow_block": "Blue Glow Block",
-    "block.suprememc.purple_glow_block": "Purple Glow Block",
-    "block.suprememc.magenta_glow_block": "Magenta Glow Block",
-    "block.suprememc.pink_glow_block": "Pink Glow Block",
-    "block.suprememc.brown_glow_block": "Brown Glow Block",
-    "block.suprememc.white_glow_block": "White Glow Block",
-    "block.suprememc.light_gray_glow_block": "Light Gray Glow Block",
-    "block.suprememc.black_glow_block": "Black Glow Block"
+    "item.suprememc.red_glow_block": "Red Glow Block",
+    "item.suprememc.orange_glow_block": "Orange Glow Block",
+    "item.suprememc.yellow_glow_block": "Yellow Glow Block",
+    "item.suprememc.lime_glow_block": "Lime Glow Block",
+    "item.suprememc.green_glow_block": "Green Glow Block",
+    "item.suprememc.cyan_glow_block": "Cyan Glow Block",
+    "item.suprememc.light_blue_glow_block": "Light Blue Glow Block",
+    "item.suprememc.blue_glow_block": "Blue Glow Block",
+    "item.suprememc.purple_glow_block": "Purple Glow Block",
+    "item.suprememc.magenta_glow_block": "Magenta Glow Block",
+    "item.suprememc.pink_glow_block": "Pink Glow Block",
+    "item.suprememc.brown_glow_block": "Brown Glow Block",
+    "item.suprememc.white_glow_block": "White Glow Block",
+    "item.suprememc.light_gray_glow_block": "Light Gray Glow Block",
+    "item.suprememc.black_glow_block": "Black Glow Block"
 }
