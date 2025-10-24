@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_crimson_planks": {
+    "has_acacia_planks": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crimson_planks"
+            "items": "minecraft:acacia_planks"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "suprememc:crimson_bowl_from_crimson_planks_stonecutting"
+        "recipe": "suprememc:acacia_boat_from_acacia_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_crimson_planks"
+      "has_acacia_planks"
     ]
   ],
   "rewards": {
     "recipes": [
-      "suprememc:crimson_bowl_from_crimson_planks_stonecutting"
+      "suprememc:acacia_boat_from_acacia_planks_stonecutting"
     ]
   }
 }

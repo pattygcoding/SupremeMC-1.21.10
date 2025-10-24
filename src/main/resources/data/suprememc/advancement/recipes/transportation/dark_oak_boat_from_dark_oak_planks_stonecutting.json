@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bamboo_planks": {
+    "has_dark_oak_planks": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bamboo_planks"
+            "items": "minecraft:dark_oak_planks"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "suprememc:boat_from_bamboo_planks_stonecutting"
+        "recipe": "suprememc:dark_oak_boat_from_dark_oak_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_bamboo_planks"
+      "has_dark_oak_planks"
     ]
   ],
   "rewards": {
     "recipes": [
-      "suprememc:boat_from_bamboo_planks_stonecutting"
+      "suprememc:dark_oak_boat_from_dark_oak_planks_stonecutting"
     ]
   }
 }

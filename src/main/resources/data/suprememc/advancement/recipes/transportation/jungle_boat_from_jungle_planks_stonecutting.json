@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_crimson_planks": {
+    "has_jungle_planks": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crimson_planks"
+            "items": "minecraft:jungle_planks"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "suprememc:crimson_boat_from_crimson_planks_stonecutting"
+        "recipe": "suprememc:jungle_boat_from_jungle_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_crimson_planks"
+      "has_jungle_planks"
     ]
   ],
   "rewards": {
     "recipes": [
-      "suprememc:crimson_boat_from_crimson_planks_stonecutting"
+      "suprememc:jungle_boat_from_jungle_planks_stonecutting"
     ]
   }
 }

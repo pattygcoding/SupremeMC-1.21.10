@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "suprememc:boat_from_spruce_planks_stonecutting"
+        "recipe": "suprememc:spruce_boat_from_spruce_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "suprememc:boat_from_spruce_planks_stonecutting"
+      "suprememc:spruce_boat_from_spruce_planks_stonecutting"
     ]
   }
 }

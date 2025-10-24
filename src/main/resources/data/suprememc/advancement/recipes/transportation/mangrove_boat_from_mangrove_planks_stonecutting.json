@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "suprememc:boat_from_mangrove_planks_stonecutting"
+        "recipe": "suprememc:mangrove_boat_from_mangrove_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "suprememc:boat_from_mangrove_planks_stonecutting"
+      "suprememc:mangrove_boat_from_mangrove_planks_stonecutting"
     ]
   }
 }
