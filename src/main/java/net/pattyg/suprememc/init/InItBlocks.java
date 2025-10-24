@@ -84,6 +84,127 @@ public class InItBlocks {
         () -> new GlowBlock(GlowBlock.createProperties(MapColor.COLOR_BLACK)
                 .setId(BLOCKS.key("black_glow_block"))));
 
+    // Slime Blocks - all 15 variants
+    public static final RegistryObject<Block> RED_SLIME_BLOCK = registerBlock("red_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_RED)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("red_slime_block"))));
+    
+    public static final RegistryObject<Block> ORANGE_SLIME_BLOCK = registerBlock("orange_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_ORANGE)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("orange_slime_block"))));
+    
+    public static final RegistryObject<Block> YELLOW_SLIME_BLOCK = registerBlock("yellow_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_YELLOW)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("yellow_slime_block"))));
+    
+    public static final RegistryObject<Block> LIME_SLIME_BLOCK = registerBlock("lime_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_LIGHT_GREEN)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("lime_slime_block"))));
+    
+    public static final RegistryObject<Block> GREEN_SLIME_BLOCK = registerBlock("green_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_GREEN)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("green_slime_block"))));
+    
+    public static final RegistryObject<Block> CYAN_SLIME_BLOCK = registerBlock("cyan_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_CYAN)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("cyan_slime_block"))));
+    
+    public static final RegistryObject<Block> LIGHT_BLUE_SLIME_BLOCK = registerBlock("light_blue_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_LIGHT_BLUE)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("light_blue_slime_block"))));
+    
+    public static final RegistryObject<Block> BLUE_SLIME_BLOCK = registerBlock("blue_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_BLUE)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("blue_slime_block"))));
+    
+    public static final RegistryObject<Block> PURPLE_SLIME_BLOCK = registerBlock("purple_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_PURPLE)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("purple_slime_block"))));
+    
+    public static final RegistryObject<Block> MAGENTA_SLIME_BLOCK = registerBlock("magenta_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_MAGENTA)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("magenta_slime_block"))));
+    
+    public static final RegistryObject<Block> PINK_SLIME_BLOCK = registerBlock("pink_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_PINK)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("pink_slime_block"))));
+    
+    public static final RegistryObject<Block> BROWN_SLIME_BLOCK = registerBlock("brown_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_BROWN)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("brown_slime_block"))));
+    
+    public static final RegistryObject<Block> WHITE_SLIME_BLOCK = registerBlock("white_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.SNOW)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("white_slime_block"))));
+    
+    public static final RegistryObject<Block> LIGHT_GRAY_SLIME_BLOCK = registerBlock("light_gray_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_LIGHT_GRAY)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("light_gray_slime_block"))));
+    
+    public static final RegistryObject<Block> BLACK_SLIME_BLOCK = registerBlock("black_slime_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_BLACK)
+                .friction(0.8F)
+                .sound(net.minecraft.world.level.block.SoundType.SLIME_BLOCK)
+                .noOcclusion()
+                .setId(BLOCKS.key("black_slime_block"))));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

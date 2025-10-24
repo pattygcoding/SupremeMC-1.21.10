@@ -37,6 +37,23 @@ public class InItCreativeModeTabs {
                     output.accept(InItBlocks.WHITE_GLOW_BLOCK.get());
                     output.accept(InItBlocks.LIGHT_GRAY_GLOW_BLOCK.get());
                     output.accept(InItBlocks.BLACK_GLOW_BLOCK.get());
+                    
+                    // Slime blocks - all 15 variants
+                    output.accept(InItBlocks.RED_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.ORANGE_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.YELLOW_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.LIME_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.GREEN_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.CYAN_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.LIGHT_BLUE_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.BLUE_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.PURPLE_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.MAGENTA_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.PINK_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.BROWN_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.WHITE_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.LIGHT_GRAY_SLIME_BLOCK.get());
+                    output.accept(InItBlocks.BLACK_SLIME_BLOCK.get());
                 })
                 .build());
 }
