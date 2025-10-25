@@ -16,6 +16,6 @@ description='''Description of SupremeMC mod.'''
 [[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.10,)"
+    versionRange="[1.21.10,)"
     ordering="NONE"
     side="BOTH"
