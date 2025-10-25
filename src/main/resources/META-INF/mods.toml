@@ -7,13 +7,13 @@ version="1.0.0"
 displayName="SupremeMC"
 authors="Patrick Goodwin"
 description='''Description of SupremeMC mod.'''
-[[dependencies.${mod_id}]]
+[[dependencies.suprememc]]
     modId="forge"
     mandatory=true
     versionRange="[60,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.${mod_id}]]
+[[dependencies.suprememc]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.21.10,)"

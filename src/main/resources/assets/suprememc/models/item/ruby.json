@@ -1,7 +1,6 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "suprememc:item/ruby"
-  }
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "suprememc:item/ruby"
+    }
 }
-
