@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_acacia_wood": {
+    "has_crimson_stem": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:acacia_wood"
+            "items": "minecraft:crimson_stem"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "suprememc:stripped_acacia_wood_from_acacia_wood"
+        "recipe": "suprememc:stripped_crimson_stem_from_crimson_stem_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_acacia_wood"
+      "has_crimson_stem"
     ]
   ],
   "rewards": {
     "recipes": [
-      "suprememc:stripped_acacia_wood_from_acacia_wood"
+      "suprememc:stripped_crimson_stem_from_crimson_stem_stonecutting"
     ]
   }
 }
