@@ -5,6 +5,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -17,12 +18,35 @@ import java.util.function.Supplier;
 public class InItBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SupremeMC.MOD_ID);
 
+
+    // Logo Block
+    public static final RegistryObject<Block> LOGO_BLOCK = registerBlock("logo_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_PURPLE)
+                .strength(0.6F) // Same as grass block
+                .sound(SoundType.GRASS)
+                .setId(BLOCKS.key("logo_block"))));
+
     // Ruby Block (similar to diamond block)
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
         () -> new Block(BlockBehaviour.Properties.of()
                 .mapColor(MapColor.COLOR_RED)
                 .strength(5.0F, 6.0F)
                 .setId(BLOCKS.key("ruby_block"))));
+    
+    // Aquamarine Block (similar to diamond block)
+    public static final RegistryObject<Block> AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_CYAN)
+                .strength(5.0F, 6.0F)
+                .setId(BLOCKS.key("aquamarine_block"))));
+    
+    // Burning Diamond Block (similar to diamond block)
+    public static final RegistryObject<Block> BURNING_DIAMOND_BLOCK = registerBlock("burning_diamond_block",
+        () -> new Block(BlockBehaviour.Properties.of()
+                .mapColor(MapColor.COLOR_ORANGE)
+                .strength(5.0F, 6.0F)
+                .setId(BLOCKS.key("burning_diamond_block"))));
 
     // Glow Blocks - all 15 variants
     public static final RegistryObject<Block> RED_GLOW_BLOCK = registerBlock("red_glow_block",

@@ -14,11 +14,14 @@ public class InItCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> SUPREME_MC_TAB = CREATIVE_MODE_TABS.register("suprememc_tab",
         () -> CreativeModeTab.builder()
-                .icon(() -> new ItemStack(InItItems.RUBY.get()))
+                .icon(() -> new ItemStack(InItBlocks.LOGO_BLOCK.get()))
                 .title(Component.translatable("creativetab.suprememc.suprememc_tab"))
                 .displayItems((parameters, output) -> {
+                    output.accept(InItBlocks.LOGO_BLOCK.get());
                     // Mineral Blocks
                     output.accept(InItBlocks.RUBY_BLOCK.get());
+                    output.accept(InItBlocks.AQUAMARINE_BLOCK.get());
+                    output.accept(InItBlocks.BURNING_DIAMOND_BLOCK.get());
                     
                     // Glow blocks - all 15 variants
                     output.accept(InItBlocks.RED_GLOW_BLOCK.get());
@@ -56,6 +59,8 @@ public class InItCreativeModeTabs {
 
                     // Items
                     output.accept(InItItems.RUBY.get());
+                    output.accept(InItItems.AQUAMARINE.get());
+                    output.accept(InItItems.BURNING_DIAMOND.get());
                 })
                 .build());
 }

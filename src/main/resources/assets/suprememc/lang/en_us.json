@@ -2,7 +2,11 @@
     "creativetab.suprememc.suprememc_tab": "SupremeMC",
     "item.suprememc.ruby": "Ruby",
     "item.suprememc.ruby_block": "Block of Ruby",
-
+    "item.suprememc.aquamarine": "Aquamarine",
+    "item.suprememc.aquamarine_block": "Block of Aquamarine",
+    "item.suprememc.burning_diamond": "Burning Diamond",
+    "item.suprememc.burning_diamond_block": "Block of Burning Diamond",
+    "item.suprememc.logo_block": "Logo Block",
     
     "item.suprememc.red_glow_block": "Red Glow Block",
     "item.suprememc.orange_glow_block": "Orange Glow Block",

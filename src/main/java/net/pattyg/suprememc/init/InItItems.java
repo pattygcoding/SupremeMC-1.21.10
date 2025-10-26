@@ -11,4 +11,10 @@ public class InItItems {
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
         () -> new Item(new Item.Properties().setId(ITEMS.key("ruby"))));
+    
+    public static final RegistryObject<Item> AQUAMARINE = ITEMS.register("aquamarine",
+        () -> new Item(new Item.Properties().setId(ITEMS.key("aquamarine"))));
+    
+    public static final RegistryObject<Item> BURNING_DIAMOND = ITEMS.register("burning_diamond",
+        () -> new Item(new Item.Properties().setId(ITEMS.key("burning_diamond"))));
 }
