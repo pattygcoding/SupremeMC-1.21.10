@@ -17,8 +17,7 @@ public class InItCreativeModeTabs {
                 .icon(() -> new ItemStack(InItItems.RUBY.get()))
                 .title(Component.translatable("creativetab.suprememc.suprememc_tab"))
                 .displayItems((parameters, output) -> {
-                    // Ruby items
-                    output.accept(InItItems.RUBY.get());
+                    // Mineral Blocks
                     output.accept(InItBlocks.RUBY_BLOCK.get());
                     
                     // Glow blocks - all 15 variants
@@ -54,6 +53,9 @@ public class InItCreativeModeTabs {
                     output.accept(InItBlocks.WHITE_SLIME_BLOCK.get());
                     output.accept(InItBlocks.LIGHT_GRAY_SLIME_BLOCK.get());
                     output.accept(InItBlocks.BLACK_SLIME_BLOCK.get());
+
+                    // Items
+                    output.accept(InItItems.RUBY.get());
                 })
                 .build());
 }

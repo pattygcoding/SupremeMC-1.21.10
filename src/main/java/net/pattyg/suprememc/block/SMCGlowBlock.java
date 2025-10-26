@@ -4,8 +4,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 
-public class GlowBlock extends Block {
-    public GlowBlock(BlockBehaviour.Properties properties) {
+public class SMCGlowBlock extends Block {
+    public SMCGlowBlock(BlockBehaviour.Properties properties) {
         super(properties);
     }
     
